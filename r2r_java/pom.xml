@@ -4,6 +4,10 @@
   <artifactId>r2r_java</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>r2r</name>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+  </properties>
   <description>Compiled executable jar of project</description>
   <dependencies>
     <dependency>
