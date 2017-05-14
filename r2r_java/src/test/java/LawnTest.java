@@ -37,9 +37,9 @@ public class LawnTest {
 	@Test
 	public void test_outside_lawn_move() throws IOException, WrongDimensionLawnException {
 		Lawn test_lawn = new Lawn(1,1);
-		assertFalse(test_lawn.valid_move(new Point(1,1)));
-		assertFalse(test_lawn.valid_move(new Point(0,1)));
-		assertFalse(test_lawn.valid_move(new Point(1,0)));
+		assertTrue(test_lawn.valid_move(new Point(1,1)));
+		assertTrue(test_lawn.valid_move(new Point(0,1)));
+		assertTrue(test_lawn.valid_move(new Point(1,0)));
 		assertFalse(test_lawn.valid_move(new Point(-1,0)));
 		assertFalse(test_lawn.valid_move(new Point(0,-1)));
 		assertTrue(test_lawn.valid_move(new Point(0,0)));
