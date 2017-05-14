@@ -17,6 +17,10 @@ mvn -f r2r_java/pom.xml install
 
 mvn -f r2r_java/pom.xml clean verify
 
+## Compatibility
+
+Because this program use some new features of java (as lambda) it's can be compiled to a version < 1.8
+
 ## Contributors
 
 C.Demonchy
