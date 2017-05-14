@@ -12,11 +12,10 @@ with ["boring"](http://mcfunley.com/choose-boring-technology) java
 
 ## Installation
 
-Use maven
-
+mvn -f r2r_java/pom.xml install
 ## Tests
 
-Use maven
+mvn -f r2r_java/pom.xml clean verify
 
 ## Contributors
 
