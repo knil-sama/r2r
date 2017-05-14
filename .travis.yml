@@ -2,4 +2,4 @@ language: java
 jdk:
   - oraclejdk8
 sudo: false
-script: mvn -f -e -X r2r_java/pom.xml clean verify
+script: mvn -f  r2r_java/pom.xml clean -e -X verify
