@@ -20,6 +20,8 @@
         <version>3.5.1</version>
         <configuration>
           <source/>
+            <source>1.8</source>
+            <target>1.8</target>
           <target/>
         </configuration>
       </plugin>
