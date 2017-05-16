@@ -1,3 +1,5 @@
+[![codebeat badge](https://codebeat.co/badges/4a495aac-f877-49bd-a07f-7bc4c34319b1)](https://codebeat.co/projects/github-com-knil-sama-r2r-master)
+
 ## R2R
 
 Technical coding test from french company [Xebia](https://xebia.com/)
